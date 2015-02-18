@@ -1,21 +1,11 @@
-<footer class="site-footer">
+<div class = "footer-container">
+  <div class = "container">
 
-  <div class="wrapper">
+    <footer class="footer">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
           {% if site.github_username %}
-          <li>
             <a href="https://github.com/{{ site.github_username }}">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 16 16">
@@ -25,11 +15,8 @@
 
               <span class="username">{{ site.github_username }}</span>
             </a>
-          </li>
           {% endif %}
-
           {% if site.twitter_username %}
-          <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 16 16">
@@ -40,16 +27,11 @@
 
               <span class="username">{{ site.twitter_username }}</span>
             </a>
-          </li>
           {% endif %}
-        </ul>
+
+        </div>
       </div>
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
-
+    </footer>
   </div>
-
-</footer>
+</div>

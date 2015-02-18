@@ -61,30 +61,57 @@ body {
 }
 
 // Menu
-.menu {
+.menu-container {
+
+  background-color: $standout;
+  color: $highlight;
+
+  .menu {
+
+    .title {
+      font-size: 26px;
+      line-height: 56px;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      float: left;
+      color: $highlight;
+    }
+
+    .link {
+      font-weight: bold;
+      color: $dark_shadow;
+    }
+
+  }
 
 }
 
 // Welcome Message
-.welcome-message {
+.welcome-message-container {
 
-  padding: 40px;
+  background-color: $highlight;
 
-  .text {
-    font-size: 24px;
-    color: $highlight;
-  }
+  .welcome-message {
 
-  .img {
+    padding: 40px 0;
+
+    .text {
+      font-size: 24px;
+      color: $standout;
+    }
+
+    .img {
+    }
+
   }
 
 }
 
-// Section Heeeader
+// Section Header
 .section-header-container {
 
-  background-color: $highlight;
-  color: $dark_shadow;
+  background-color: $background;
+  color: $highlight;
 
   .section-header {
     padding: 40px 0;
@@ -95,11 +122,33 @@ body {
 // Content
 .content-container {
 
-  background-color: $reading_background;
+  background-color: $highlight;
 
   .content: {
+    padding: 40px 0;
+    color: $dark_shadow;
+  }
+
+  .content-heading {
+    color: $background;
   }
 
 }
 
 // Footer
+.footer-container {
+
+  .footer {
+    padding: 40px 0;
+  }
+
+}
+
+// Posts
+.post-list {
+
+  .post-link {
+    color: $standout;
+  }
+
+}
