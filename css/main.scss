@@ -65,12 +65,14 @@ body {
 
   .menu {
 
+    text-align: right;
+    font-weight: bold;
+
     .title {
-      font-size: 26px;
+      font-size: 21px;
       line-height: 56px;
       letter-spacing: -1px;
       margin-bottom: 0;
-      float: left;
       color: $highlight;
     }
 
