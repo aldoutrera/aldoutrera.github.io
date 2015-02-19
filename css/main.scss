@@ -141,7 +141,7 @@ body {
   .content {
     padding: 60px 0;
     color: $dark_shadow;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .content-heading {
@@ -164,7 +164,16 @@ body {
 .footer-container {
 
   .footer {
-    padding: 40px 0;
+
+    color: $highlight;
+    padding: 60px 0;
+    text-align: center;
+
+    span {
+      color: $standout;
+      font-style: italic;
+    }
+
   }
 
 }
@@ -172,16 +181,22 @@ body {
 // Resume
 .resume {
 
+  p {
+    margin-left: 30px;
+  }
+
   ul {
 
     list-style-type: none;
+    margin-bottom: 30px;
 
     li {
 
       margin-bottom: 8px;
 
       small {
-        color: gray;
+        color: $background;
+        font-style: italic;
       }
 
     }
