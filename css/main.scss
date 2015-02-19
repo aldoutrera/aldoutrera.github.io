@@ -53,6 +53,7 @@ $dark_shadow: #473935;
 ;
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: $background;
 }
 
@@ -114,12 +115,12 @@ body {
 
   .section-header {
 
-    padding: 60px 0;
+    padding: 80px 0;
     font-size: 16px;
 
     .links {
 
-      margin-top: 20px;
+      margin-top: 30px;
 
       .link {
         margin-right: 20px;
@@ -140,13 +141,16 @@ body {
   .content {
     padding: 60px 0;
     color: $dark_shadow;
+    font-size: 16px;
   }
 
   .content-heading {
 
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: bold;
     color: $standout;
     margin-top: 60px;
+    margin-bottom: 20px;
 
     &.first {
       margin-top: 0;
@@ -161,6 +165,27 @@ body {
 
   .footer {
     padding: 40px 0;
+  }
+
+}
+
+// Resume
+.resume {
+
+  ul {
+
+    list-style-type: none;
+
+    li {
+
+      margin-bottom: 8px;
+
+      small {
+        color: gray;
+      }
+
+    }
+
   }
 
 }
