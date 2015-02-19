@@ -89,14 +89,17 @@ body {
 
   .welcome-message {
 
-    padding: 40px 0;
+    padding: 50px 0;
 
-    .text {
+    .name {
       font-size: 24px;
+      font-weight: bold;
       color: $standout;
     }
 
-    .img {
+    .caption {
+      font-size: 16px;
+      color: $background;
     }
 
   }
@@ -110,7 +113,21 @@ body {
   color: $highlight;
 
   .section-header {
-    padding: 40px 0;
+
+    padding: 60px 0;
+    font-size: 16px;
+
+    .links {
+
+      margin-top: 20px;
+
+      .link {
+        margin-right: 20px;
+        font-weight: bold;
+      }
+
+    }
+
   }
 
 }
@@ -120,13 +137,15 @@ body {
 
   background-color: $highlight;
 
-  .content: {
-    padding: 40px 0;
+  .content {
+    padding: 60px 0;
     color: $dark_shadow;
   }
 
   .content-heading {
-    color: $background;
+    font-size: 18px;
+    color: $standout;
+    margin-bottom: 60px;
   }
 
 }
@@ -136,15 +155,6 @@ body {
 
   .footer {
     padding: 40px 0;
-  }
-
-}
-
-// Posts
-.post-list {
-
-  .post-link {
-    color: $standout;
   }
 
 }
