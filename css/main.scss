@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -28,12 +26,10 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 // Colors
-$background: #3E474E;
-$highlight: #E8CA9A;
-$standout: #B7492B;
-$soft_shadow: #CEB18B;
+$background: #556262;
+$highlight: #F6E9CA;
+$standout: #D16943;
 $dark_shadow: #473935;
-$reading_background: #F5F5F5;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
